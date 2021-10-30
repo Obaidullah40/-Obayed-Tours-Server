@@ -1,0 +1,58 @@
+[
+    {
+        "name": "Bahamas",
+        "price": "500",
+        "rating": "8.3 Superb",
+        "description": "Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi.",
+        "img": "https://i.ibb.co/vZ2pbrk/photo-1548574505-5e239809ee19-ixid-Mnwx-Mj-A3f-DB8-MHxz-ZWFy-Y2h8-MXx8d-Ghl-JTIw-Ym-Fo-YW1hc3xlbnwwf.jpg"
+    },
+    {
+        "name": "Lucerne",
+        "price": "600",
+        "rating": "7.5 Superb",
+        "description": "Lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.",
+        "img": "https://i.ibb.co/J5Rgdjv/image.png"
+    },
+    {
+        "name": "Rhodes",
+        "price": "550",
+        "rating": "10.0 Superb",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa.Etiam ultricies.",
+        "img": "https://i.ibb.co/WgK91pX/image.png"
+    },
+    {
+        "name": "Brooklyn",
+        "price": "350",
+        "rating": "6.5 Good",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa nisi augue.",
+        "img": "https://i.ibb.co/pf9xFNZ/image.png"
+    },
+    {
+        "name": "Brussels",
+        "price": "750",
+        "rating": "8.7 Superb",
+        "description": "liquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet.",
+        "img": "https://i.ibb.co/7z2P4ZH/image.png"
+    },
+    {
+        "name": "Verona",
+        "price": "650",
+        "rating": "8.1 Superb",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/XS9pDF2/image.png"
+    },
+    {
+        "name": "Ankaran",
+        "price": "380",
+        "rating": "7.1 Superb",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/zFN69bD/image.png"
+    },
+    {
+        "name": "Maui",
+        "price": "1050",
+        "rating": "9.1 Superb",
+        "description": "Lorem ipsum dolor sit amet, consectetu radipisi cing elitBeatae autem aperiam nequ quaera molestias voluptatibus harum ametipsa",
+        "img": "https://i.ibb.co/dPr0ktT/image.png"
+    }
+]

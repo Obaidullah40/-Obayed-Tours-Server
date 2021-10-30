@@ -1,0 +1,34 @@
+.about-img {
+    background-image: url(https://www.tour-withus.com/includes/jQuerySlider2/PowerSlider1/Palermo.jpg);
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 40px;
+}
+.font{
+    font-family: 'Oswald', sans-serif;
+   
+}
+
+.font-2{
+    font-family: 'Pacifico', cursive;
+}
+.small-h {
+    font-size: small;
+    font-weight: 400;
+}
+.margin {
+    margin-left: 25px;
+}
+.number {
+    color: #ffaa30;
+}
+
+.text-color{
+ color: rgb(31, 1, 1);
+}
+
+.text-about {
+    color: rgb(150, 137, 137);
+}
