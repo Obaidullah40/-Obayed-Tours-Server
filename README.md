@@ -2,7 +2,7 @@
 
 Live side: (https://obayed-tours-travel.netlify.app/).
 
-sever side: (https://ghoulish-mummy-50462.herokuapp.com/).
+sever side: (https://obscure-dusk-13738.herokuapp.com/).
 
 - Obayed Tours and Travels Most Popular Tours and Travels agency in Dhaka Bangladesh.
 - Coronavirus (COVID-19) update from Rana Tours & Travels ... Vision

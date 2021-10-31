@@ -1,5 +1,4 @@
-import React, { useEffect, useState } from 'react';
-import ShowOrder from './ShowOrder/ShowOrder';
+import React from 'react';
 import ShowOrders from './ShowOrders/ShowOrders';
 
 const MyOrders = () => {

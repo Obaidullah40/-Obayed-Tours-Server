@@ -11,7 +11,7 @@ const ShowOrder = ({ showOrder }) => {
     const handleDelete = (id) => {
         const proceed = window.confirm("Are you sure, you want to delete?");
         if (proceed) {
-            const url = `http://localhost:5000/books/${id}`;
+            const url = `https://obscure-dusk-13738.herokuapp.com/books/${id}`;
             fetch(url, {
                 method: "DELETE",
             })

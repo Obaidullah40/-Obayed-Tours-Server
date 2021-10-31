@@ -7,7 +7,7 @@ import "./Offers.css"
 const Offers = () => {
      const [offers, setOffers] = useState([]);
      useEffect(() => {
-         fetch("https://ghoulish-mummy-50462.herokuapp.com/offers")
+         fetch("https://obscure-dusk-13738.herokuapp.com/offers")
              .then((res) => res.json())
              .then((data) => setOffers(data));
      }, []);
