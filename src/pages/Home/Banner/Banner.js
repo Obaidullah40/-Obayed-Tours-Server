@@ -21,8 +21,7 @@ const Banner = () => {
                             </h1>
                             <p className="font-2">
                                 It is one of three high-end private hospital in
-                                Bangladesh, the other being Apollo Hospital
-                                Dhaka and United Hospital, Dhaka.
+                                Bangladesh, the other being Apollo tour.
                             </p>
                             
                         </div>
