@@ -7,14 +7,14 @@ import "./Offers.css"
 const Offers = () => {
      const [offers, setOffers] = useState([]);
      useEffect(() => {
-         fetch("offer.json")
+         fetch("https://ghoulish-mummy-50462.herokuapp.com/offers")
              .then((res) => res.json())
              .then((data) => setOffers(data));
      }, []);
 
      return (
          <div className="container" id="offers">
-             <Row>
+             <Row className="pb-3">
                  <Col xs={1} md={2}></Col>
                  <Col xs={12} md={7}>
                      <h1 className="fs-1 mt-5">

@@ -9,6 +9,9 @@ import About from './pages/About/About';
 import Login from './pages/Login/Login';
 import Register from './pages/Register/Register';
 import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './pages/Login/PrivateRoute/PrivateRoute';
+import Booking from './pages/Booking/Booking';
+import MyOrders from './pages/Booking/MyOrders/MyOrders';
 
 function App() {
   return (
@@ -32,7 +35,12 @@ function App() {
                       <Route path="/about">
                           <About></About>
                       </Route>
-
+                      <PrivateRoute path="/booking/:serviceId">
+                          <Booking></Booking>
+                      </PrivateRoute>
+                      <PrivateRoute path="/orders">
+                          <MyOrders></MyOrders>
+                      </PrivateRoute>
                       <Route path="*">
                           <NotFound></NotFound>
                       </Route>

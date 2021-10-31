@@ -33,8 +33,8 @@ const Offer = ({ offer }) => {
                             {description}
                         </Card.Text>
                         <Link to={`/booking/${_id}`}>
-                            <Button className="mt-3" variant="warning">
-                                Book Appointment
+                            <Button className="mt-2 text-center" variant="warning">
+                                Book Now >>
                             </Button>
                         </Link>
                     </Card.Body>

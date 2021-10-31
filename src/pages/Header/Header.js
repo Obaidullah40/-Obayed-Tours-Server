@@ -22,7 +22,7 @@ const Header = () => {
                         <Image
                             width="60px"
                             height="30px"
-                            src="https://i.ibb.co/cw5yw6C/hospital.png"
+                            src="https://i.ibb.co/Wsc9GXR/Screenshot-2021-10-31-131119-removebg-preview.png"
                             fluid
                         />
                     </Navbar.Brand>
@@ -31,39 +31,51 @@ const Header = () => {
                         <Nav.Link as={HashLink} to="/home#home">
                             Home
                         </Nav.Link>
-                        <Nav.Link as={HashLink} to="/home#service">
-                            Services
-                        </Nav.Link>
-                        <Nav.Link as={HashLink} to="/doctor">
-                            Doctors
+                        <Nav.Link as={HashLink} to="/home#offers">
+                            Offers
                         </Nav.Link>
                         <Nav.Link as={HashLink} to="/about">
                             About Us
                         </Nav.Link>
-                        <Nav.Link as={HashLink} to="/departments">
-                            Departments
-                        </Nav.Link>
+
                         {user?.email ? (
-                            <Button onClick={logOut} variant="light">
-                                Logout
-                            </Button>
+                            <>
+                                <Nav.Link as={HashLink} to="/orders">
+                                    My Orders
+                                </Nav.Link>
+                                <Navbar.Text>
+                                    Signed:
+                                    <a href="#login">
+                                        {user?.displayName || user.email}
+                                    </a>
+                                </Navbar.Text>
+                                <Nav.Link
+                                    onClick={logOut}
+                                    as={HashLink}
+                                    to="/logIn"
+                                    className="login"
+                                >
+                                    LogOut
+                                </Nav.Link>
+                            </>
                         ) : (
-                            <Nav.Link
-                                className="logOut-btn"
-                                as={HashLink}
-                                to="/login"
-                            >
-                                Login
-                            </Nav.Link>
+                            <>
+                                <Nav.Link
+                                    as={HashLink}
+                                    to="/logIn"
+                                    className="login"
+                                >
+                                    LogIn
+                                </Nav.Link>
+                                <Nav.Link
+                                    as={HashLink}
+                                    to="/register"
+                                    className="register"
+                                >
+                                    Register
+                                </Nav.Link>
+                            </>
                         )}
-                        <>
-                            <Navbar.Text>
-                                Signed:{" "}
-                                <a href="#login">
-                                    {user?.displayName || user.email}
-                                </a>
-                            </Navbar.Text>
-                        </>
                     </Navbar.Collapse>
                 </Navbar>
             </>
